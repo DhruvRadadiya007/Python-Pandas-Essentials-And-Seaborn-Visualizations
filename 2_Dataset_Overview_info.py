@@ -30,7 +30,16 @@ print("\n")
 print("# Statistical Dataset Info")
 print("\n")
 
-print(df.describe())
+print(df.describe()) # it has a property include = "all"
+
+print("\n")
+print("# Getting count of values in a column")
+print("\n")
+
+
+print(df['sex'].value_counts())
+
+
 
 print("\n")
 print("DataFrame inspection essentials ")
@@ -44,4 +53,5 @@ print("\n")
 # .nunique()	Count unique values
 # .value_counts()	Frequency table (for categoricals)
 # .describe()	Summary stats (numeric only by default)
+
 
