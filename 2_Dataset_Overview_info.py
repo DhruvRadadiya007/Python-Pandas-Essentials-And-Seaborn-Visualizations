@@ -30,7 +30,7 @@ print("\n")
 print("# Statistical Dataset Info")
 print("\n")
 
-print(df.describe()) # it has a property include = "all"
+print(df.describe()) # it has a property include = "all" and  "category"
 
 print("\n")
 print("# Getting count of values in a column")
