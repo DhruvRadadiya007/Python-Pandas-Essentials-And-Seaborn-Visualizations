@@ -63,3 +63,9 @@ print("\n")
 print(df[df['age'].notna()].loc[df['age'] >70]) # Filter the DataFrame to include only rows where 'age' is not null,
 # and then select those rows where 'age' is greater than 70
 
+print("\n Age not null")
+
+print(df[df['age'].notna()].head(10))
+
+
+# in loc the end index is taken and in iloc the end index is not taken ex:- 1234 all in loc but 123 in iloc
